@@ -1,0 +1,20 @@
+{
+  "name": "tasknest",
+  "version": "1.0.0",
+  "description": "TaskNest - Personal Task Management System (MERN Stack & GraphQL)",
+  "scripts": {
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client run dev",
+    "install-all": "npm --prefix server install && npm --prefix client install"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "mongodb",
+    "graphql",
+    "mern"
+  ],
+  "author": "MCA Student",
+  "license": "ISC"
+}
+

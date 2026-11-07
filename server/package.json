@@ -1,0 +1,19 @@
+{
+  "name": "tasknest-server",
+  "version": "1.0.0",
+  "description": "Backend for TaskNest Task Management System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.11.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "graphql": "^16.10.0",
+    "mongoose": "^8.9.5"
+  }
+}
+
